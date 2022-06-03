@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget
 {
   final Future<FirebaseApp> _initialization = Firebase.initializeApp(
       options: FirebaseOptions(
-    //get this information from the firebase console
       apiKey: "AIzaSyDi_aNBYWUYT8uoMWiSGjbSjDgp9TcSXdw",
       authDomain: "kit305-607-ad43a.firebaseapp.com",
       projectId: "kit305-607-ad43a",
